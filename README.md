@@ -3,7 +3,7 @@
   <a href="https://discord.gg/kaneki">Discord</a> |
   <a href="https://www.youtube.com/channel/UC-XII5SSqbMOF1UX3N0Gl8g">YouTube</a> |
   <a href="https://github.com/KanekiWeb">Github</a><br><br>
-  <img src="https://cdn.discordapp.com/attachments/846497168046030868/886175312889643038/Xenos_PC.png" style="width: 80%">
+  <img src="https://cdn.discordapp.com/attachments/884211621986201650/888871064808079380/unknown.png" style="width: 80%">
 </p>
 
 ##  
