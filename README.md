@@ -42,7 +42,7 @@
 
 ### 🧰 Support
 - Email: <kaneki_pro@protonmail.com>
-- Discord: https://discord.gg/jyUSstvCBH
+- Discord: https://discord.gg/JuEeGweHrb
 
 ##  
 
