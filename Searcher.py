@@ -56,7 +56,7 @@ async def on_ready():
                     messages_count += 1
                     if config['message'] in message.content:
                         print(f"[{Fore.GREEN}MESSAGE{Fore.RESET}] Message Found: " + message.content)
-                        open('found.txt', 'a+').write(f"{message.author.name}: {message.content}")
+                        open('found.txt', 'a+').write(f"{message.author.name}: {message.content}\n")
             except:
                 pass
     
@@ -70,7 +70,7 @@ async def on_ready():
             messages_count += 1
             if config['message'] in message.content:
                 print(f"[{Fore.GREEN}MESSAGE{Fore.RESET}] Message Found: " + message.content)
-                open('found.txt', 'a+').write(f"{message.author.name}: {message.content}")
+                open('found.txt', 'a+').write(f"{message.author.name}: {message.content}\n")
 
     input(f"{Fore.RED+str(messages_count)+Fore.RESET} Messages on été scanné depuis {Fore.RED+str(channels_count)+Fore.RESET} Salons ({Fore.RED+str(serveur_count)+Fore.RESET} Serveurs, {Fore.RED+str(dm_count)+Fore.RESET} DMs)")
 
