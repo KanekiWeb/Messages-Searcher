@@ -1,4 +1,13 @@
 {
+	"type": {
+		"servers": "yes",
+		"dm": "yes"
+	},
+
 	"token": "Your Discord Token",
-	"message": "Your message to search"
+	
+	"messages": [
+		"Message to search",
+		"Other message to search"
+	]
 }
