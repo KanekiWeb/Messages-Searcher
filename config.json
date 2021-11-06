@@ -3,9 +3,7 @@
 		"servers": "yes",
 		"dm": "yes"
 	},
-
 	"token": "Your Discord Token",
-	
 	"messages": [
 		"Message to search",
 		"Other message to search"
