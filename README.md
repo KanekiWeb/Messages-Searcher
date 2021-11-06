@@ -25,10 +25,11 @@
 
 ### 🏆 Features List
 - Simple Usage
-- Auto Save messages found
+- Auto Save messages found with username
 - Check in All Guild, Channels, DM Channels
 - Fast Checking
-- Chec 100K Messages by channels
+- Check 100K Messages by channels
+- Can check several words per message
 
 ##   
 
@@ -42,7 +43,7 @@
 
 ### 🧰 Support
 - Email: <kaneki_pro@protonmail.com>
-- Discord: https://discord.gg/JuEeGweHrb
+- Discord: https://discord.gg/J3dsG2PvYt
 
 ##  
 
