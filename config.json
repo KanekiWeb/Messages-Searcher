@@ -3,9 +3,13 @@
 		"servers": "yes",
 		"dm": "yes"
 	},
-	"token": "Your Discord Token",
-	"messages": [
+	"token": "YOUR DISCORD TOKEN",	
+	"words": [
 		"Message to search",
 		"Other message to search"
+	],
+	"regex": [
+		"Regex Use for search a custom message",
+		"Other refex"
 	]
 }
