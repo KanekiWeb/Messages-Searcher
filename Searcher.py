@@ -1,4 +1,4 @@
-import os, discord, json
+import os, discord, json, re
 from colorama import Fore, init
 
 client = discord.Client()
@@ -54,8 +54,13 @@ async def on_ready():
                 try:
                     async for message in client.get_channel(channel.id).history(limit=99999):
                         messages_count += 1
-                        for searchmessage in config['messages']:
+                        for searchmessage in config['words']:
                             if searchmessage in message.content:
+                                print(f"[{Fore.GREEN}MESSAGE{Fore.RESET}] Message Found: " + message.content)
+                                open('found.txt', 'a+').write(f"{message.author.name}: {message.content}\n")
+
+                        for regex in config['regex']:
+                            if re.match(r"" + regex, message.content):
                                 print(f"[{Fore.GREEN}MESSAGE{Fore.RESET}] Message Found: " + message.content)
                                 open('found.txt', 'a+').write(f"{message.author.name}: {message.content}\n")
                 except:
@@ -70,8 +75,13 @@ async def on_ready():
             try:
                 async for message in channel.history(limit=99999):
                     messages_count += 1
-                    for searchmessage in config['messages']:
+                    for searchmessage in config['words']:
                         if searchmessage in message.content:
+                            print(f"[{Fore.GREEN}MESSAGE{Fore.RESET}] Message Found: " + message.content)
+                            open('found.txt', 'a+').write(f"{message.author.name}: {message.content}\n")
+
+                    for regex in config['regex']:
+                        if re.match(r"" + regex, message.content):
                             print(f"[{Fore.GREEN}MESSAGE{Fore.RESET}] Message Found: " + message.content)
                             open('found.txt', 'a+').write(f"{message.author.name}: {message.content}\n")
             except:
